@@ -102,7 +102,9 @@ const App = () => {
             height="315"
             src={embedUrl}
             title=""
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
             allowFullScreen
           ></iframe>
         </div>

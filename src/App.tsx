@@ -1,6 +1,5 @@
 import {useEffect, useRef, useState} from 'react'
 import Content from "./components/Content.tsx";
-import getVideoId from 'get-video-id';
 import copy from 'copy-to-clipboard';
 
 

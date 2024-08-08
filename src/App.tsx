@@ -6,7 +6,7 @@ import copy from 'copy-to-clipboard';
 const App = () => {
   const minVideoWidth = 0;
   const minVideoHeight = 0;
-  const [url, setUrl] = useState<string>('https://soundcloud.com/david-byrne-official/like-humans-do-live');
+  const [url, setUrl] = useState<string>('https://soundcloud.com/bangtan/firstjiminpresent');
   const [width, setWidth] = useState<string>('560');
   const [height, setHeight] = useState<string>('315');
   const [embedString, setEmbedString] = useState<string>('');
@@ -53,7 +53,7 @@ const App = () => {
               <input
                 type="url"
                 name="video-url"
-                placeholder={url}
+                placeholder="https://soundcloud.com/bangtan/firstjiminpresent"
                 onChange={e => setUrl(e.target.value)}
                 pattern={'^(http|https):\\/\\/(www\\.|m\\.|)(soundcloud\\.com).*$'}
                 title={'URL must contain SoundCloud domain.'}

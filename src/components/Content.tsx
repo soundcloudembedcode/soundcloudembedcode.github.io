@@ -40,7 +40,7 @@ export default function Content() {
           your website’s aesthetic appeal.
         </li>
       </ol>
-      <h4>How Do I Create a SoundCloud Code to Embed in My Website?</h4>
+      <h2>How Do I Create a SoundCloud Code to Embed in My Website?</h2>
       <p>
         Creating a SoundCloud embed code is a simple and straightforward
         process.

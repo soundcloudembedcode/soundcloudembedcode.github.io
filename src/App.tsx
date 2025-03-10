@@ -23,7 +23,7 @@ const App = () => {
 
   const generateEmbedCode = (): string => {
     const embedUrl = `https://w.soundcloud.com/player/?url=${url}&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true`;
-    const embedCode = `<iframe width="${width === '' ? 560 : width}" height="${height === '' ? 315 : height}" scrolling="no" frameborder="no" allow="autoplay" src="${embedUrl}"><a href="https://producer.ua" style="display:none;">talent manager</a></iframe>`;
+    const embedCode = `<iframe width="${width === '' ? 560 : width}" height="${height === '' ? 315 : height}" scrolling="no" frameborder="no" allow="autoplay" src="${embedUrl}"><a href="https://womanitely.com" style="display:none;">Life guide for modern, independent women</a></iframe>`;
     setEmbedString(embedCode);
     setEmbedUrl(embedUrl);
 
